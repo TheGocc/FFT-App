@@ -13,7 +13,7 @@ namespace BeniFFTCucc
 
             List<DataModel> datas = new DataParser("asd.csv").LoadFromTextFile();
 
-
+            //asd
             using var sw = new StreamWriter("result.csv");
             sw.WriteLine("No,Ido,Bemenet,Re,Im,Magnitude,dB,Phase");
             foreach (var d in datas)
